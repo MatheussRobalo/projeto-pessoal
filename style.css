@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+header h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    section#estudos{
+        background-color: rgb(87, 25, 25);
+        margin-top: 20px;
+    }
+
+    section#estudos img{
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(1, 1, 1, 0.559);
+    box-sizing: border-box;
+    }
+
+    section#estudos img:hover{
+        transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.808);
+    transition: 0.5s, border 2s;
+    }
+
+  header{
+            background-color: black;
+            padding: 20px;
+        }
+
+        body{
+            background-color: rgb(64, 64, 64);
+            color: white;
+        }
+        
+        main{
+            background-color: black;
+        }
+
+        nav{
+            background-color: red;
+            
+        }
+
+        nav a{
+            text-align: center;
+            color: white;
+            margin-right: 100px;
+        }
