@@ -12,24 +12,20 @@ header h1{
     font-family: 'Times New Roman', Times, serif;
     }
 
-    section#estudos{
-        background-color: rgb(87, 25, 25);
-        margin-top: 20px;
+    .estudos{
+        text-align: left;
     }
 
-    section#estudos img{
-    width: 100px;
-    margin: 10px;
+    .estudos img{
+      display: block;
+    width: 150px;
+    margin: 20px;
+    margin-bottom: 10px;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(1, 1, 1, 0.559);
-    box-sizing: border-box;
+    box-shadow: 1px black;
+    box-sizing:border-box
     }
 
-    section#estudos img:hover{
-        transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.808);
-    transition: 0.5s, border 2s;
-    }
 
   header{
             background-color: black;
@@ -42,7 +38,7 @@ header h1{
         }
         
         main{
-            background-color: black;
+            background-color: rgb(177, 158, 158);
         }
 
         nav{
@@ -51,6 +47,7 @@ header h1{
         }
 
         nav a{
+            
             text-align: center;
             color: white;
             margin-right: 100px;
